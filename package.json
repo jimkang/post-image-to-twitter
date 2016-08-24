@@ -1,0 +1,30 @@
+{
+  "name": "post-image-to-twitter",
+  "version": "1.0.0",
+  "description": "An abstraction that uses Twit to post a base64 encoded image to Twitter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/post-image-to-twitter.git"
+  },
+  "keywords": [],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/post-image-to-twitter/issues"
+  },
+  "homepage": "https://github.com/jimkang/post-image-to-twitter",
+  "devDependencies": {
+    "assert-no-error": "^1.0.0",
+    "tape": "^4.6.0",
+    "twit": "^2.2.4"
+  },
+  "dependencies": {
+    "async-waterfall": "^0.1.5",
+    "call-next-tick": "^1.1.2",
+    "lodash.pick": "^4.4.0"
+  }
+}
