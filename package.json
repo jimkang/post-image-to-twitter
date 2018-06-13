@@ -1,6 +1,6 @@
 {
   "name": "post-image-to-twitter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An abstraction that uses Twit to post a base64 encoded image to Twitter.",
   "main": "index.js",
   "scripts": {
